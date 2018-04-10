@@ -9,5 +9,9 @@
  * @author acer
  */
 public class sepatubola extends bola{
+    private String jenisbola;
     
+    void throttle(){
+        System.out.println("nuuukaaar........");
+    }
 }
