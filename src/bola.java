@@ -13,4 +13,11 @@ public class bola {
     String ukuran;
     String warna;
     double harga;
+    
+     void cetakinfo(){
+        System.out.println("merk \t: "+merk+"\n"+
+                "ukuran \t: "+ukuran+"\n"+
+                "warna \t: "+warna+"\n"+
+                "harga \t: "+harga);
+    }
 }
