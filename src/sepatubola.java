@@ -14,4 +14,14 @@ public class sepatubola extends bola{
     void throttle(){
         System.out.println("nuuukaaar........");
     }
+
+    public String getJenisbola() {
+        return jenisbola;
+    }
+
+    public void setJenisbola(String jenisbola) {
+        this.jenisbola = jenisbola;
+    }
+    
+    
 }
