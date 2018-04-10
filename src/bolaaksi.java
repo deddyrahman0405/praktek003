@@ -17,6 +17,7 @@ public class bolaaksi {
         b.setUkuran("barapalah");
         b.setWarna("kuning");
         b.setHarga(200000);
+        //gak bisa b.setJenisbola();
         
         b.cetakinfo();
         
@@ -29,5 +30,15 @@ public class bolaaksi {
         System.out.print("harganya \t: ");
         System.out.println(b.getHarga());
         
+        
+        sepatubola sp = new sepatubola();
+        sp.setMerk("apalah");
+        sp.setUkuran("35");
+        sp.setWarna("hijau");
+        sp.setHarga(300000);
+        sp.setJenisbola("apayo");
+        sp.cetakinfo();
+        System.out.println("Jenis \t:"+sp.getJenisbola());
+        sp.throttle();
     }
 }
